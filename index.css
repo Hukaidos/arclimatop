@@ -1,0 +1,136 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definindo fonte padrão e cor de fundo */
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #cecbcb;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333; /* Cor de fundo escura */
+    color: white;           /* Texto branco */
+    padding: 20px 40px;     /* Padding nas laterais e no topo */
+    width: 100%;            /* Faz o header ocupar toda a largura da página */
+    position: fixed;        /* Fixa o header no topo */
+    top: 0;                 /* Fixa no topo da página */
+    z-index: 1000;          /* Garante que o header fique sobre outros elementos */
+  }
+  
+  /* Centralizando o conteúdo no .conteiner */
+  .conteiner {
+    display: flex;
+    padding-top:  200px;
+    padding-bottom: 200px;
+    align-items: center;
+    justify-content: center;  /* Centraliza as divs horizontalmente */
+    flex-wrap: wrap;          /* Permite que as divs quebrem de linha */
+    gap: 20px;                /* Espaçamento entre as divs */
+  }
+  
+  /* Estilo para o título */
+  h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Estilo das seções */
+  section {
+    background-color: rgb(235, 240, 241);
+    width: 400px;  /* Tamanho fixo da div */
+    height: 600px; /* Tamanho fixo da div */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #0066cc;
+  }
+  
+  /* Estilo das listas */
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo das imagens */
+  section div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  section img {
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo das tabelas e valores */
+  strong {
+    font-weight: bold;
+    color: #6face9;
+  }
+  
+  /* Estilo do formulário de pagamento e garantia */
+  section ul {
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    width: 100%; /* Faz com que ocupe toda a largura da página */
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
